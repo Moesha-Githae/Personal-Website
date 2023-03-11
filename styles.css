@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*navbar*/
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #020331;
+    padding: 30px 20px ; 
+    color: #e7bf0c;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 20px;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar ul li{
+    margin-right: 10px;
+}
+
+.navbar ul li a{
+    color: #fff;
+    text-decoration: wavy;
+    font-size: 20px;
+    font-family:  Tahoma;
+    font-style: italic;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+}
+.navbar ul li a:hover{
+    background-color: #66108d;
+    color: #ee05e2;
+}
+div h1{
+    font-size: 50px;
+    font-family: tahoma  ;
+    font-style: italic;
+}
+.home-section{
+    background-color: #49e081;
+    height: 100vh;
+    text-align: center;
+}
+
+.home-section h1{
+    position: absolute;
+    top: 60%;
+    left: 25%;
+    right: 25%;
+
+}
+
+.home-section div{
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*about section*/
+
+.about-me-section{
+    background-color: #088623;
+    padding: 100px;
+}
+.about-header h1{
+    text-align: center;
+    font-size: 40px;
+    padding-bottom: 20px;
+
+}
+
+.about-me p{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+.about-row{
+    display: flex;
+}
+.about-column{
+    width: 50%;
+    padding: 30px;
+}
+
+.about-column h2{
+    text-align: center;
+    padding-bottom: 10px;
+}
+.about-list-content{
+    text-align: center;
+}
+.hobby-list{
+    display: inline-block;
+    text-align: left;
+    justify-content: center;
+
+}
+.hobby-list li{
+    padding-bottom: 10px;
+}
+
+/* Project Section */
+.project-section {
+    background-color: #FFA1DD;
+    padding: 40px;
+}
+.project-section h1{
+    text-align: center;
+        font-size: 40px;
+        padding-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.column{
+    width: 33.33%;
+}
+
+/* Contact section */
+
+.contact-section {
+    background-color: #DEA1FF;
+    padding: 40px;
+    text-align: center;
+
+}
+
+.contact-section h1 {
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+.contact-section p {
+    display: inline-block;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: #FFC3A1;
+    padding: 50px;
+    text-align: center;
+}
